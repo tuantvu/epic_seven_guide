@@ -3,7 +3,9 @@ import 'package:epic_seven_guide/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:epic_seven_guide/pages/home/home.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
 //      ),
       theme: ThemeData.dark().copyWith(
       ),
-      initialRoute: Routes.HOME,
+      initialRoute: Routes.LOADING,
       routes: Routes.routes,
     );
   }
